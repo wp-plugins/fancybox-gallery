@@ -13,14 +13,21 @@ overlays for WordPress galleries.
 
 == Description ==
 
+FancyBox Gallery integrates the FancyBox jQuery plugin into the WordPress
+gallery functionality. Simply use the gallery shortcode to display
+thumbnails in your posts with the option to link directly to the images (not
+the attachment template), and the plugin handles the rest. You get nice
+popups for the larger sized images, scaled to fit in the browser window,
+with a nice overlay effect.
+
 Features:
-* Automatically scales large images to fit in window
-* Adds a nice drop shadow under the zoomed item
+ * Automatically scales large images to fit in window
+ * Adds a nice drop shadow under the zoomed item
 
 FancyBox jQuery features, not yet implemented in the WordPress plugin:
-* Groups related items and adds navigation through them (uses preloading)
-* Can display images, inline and iframed content
-* Customizable through settings and CSS
+ * Groups related items and adds navigation through them (uses preloading)
+ * Can display images, inline and iframed content
+ * Customizable through settings and CSS
 
 
 == Installation ==
@@ -47,12 +54,12 @@ Yes, FancyBox Gallery can work with other embedded media types.
 
 == ToDo ==
 
-* Add a settings screen. Allow control of FancyBox display options.
-* Let user set their own CSS selector, instead of assuming the standard
-  WordPress shortcode.
-* Test against more themes for visual layout problems.
-* ?? Filter gallery output to add `rel` attribute, so that images
-  can be grouped.
+ * Add a settings screen. Allow control of FancyBox display options.
+ * Let user set their own CSS selector, instead of assuming the standard
+   WordPress shortcode.
+ * Test against more themes for visual layout problems.
+ * ?? Filter gallery output to add `rel` attribute, so that images
+   can be grouped.
 
 == Credits ==
 
