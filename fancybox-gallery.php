@@ -5,7 +5,7 @@
  * Description: Integrates the FancyBox jQuery plugin to generate pop-up image overlays for WordPress galleries. .
  * Author: Dougal Campbell
  * Author URI: http://dougal.gunters.org/
- * Version: 0.1
+ * Version: 0.2
  * Min WP Version: 2.5
  * Max WP Version: 2.7
  */
