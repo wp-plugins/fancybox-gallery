@@ -4,8 +4,8 @@ Contributors: dougal
 Donate link: http://dougal.gunters.org/donate
 Tags: gallery, galleries, fancybox, lightbox, photos, images, image gallery, photo gallery, overlay, popup
 License: GPL2
-Requires at least: 2.5
-Tested up to: 2.7
+Requires at least: 2.8
+Tested up to: 2.8
 Stable tag: 0.2
 
 Integrates the FancyBox jQuery plugin to generate dynamic pop-up image
@@ -24,10 +24,10 @@ with a nice overlay effect.
 
 * Automatically scales large images to fit in window
 * Adds a nice drop shadow under the zoomed item
+* Groups related items and adds navigation through them (uses preloading)
 
 FancyBox jQuery features, not yet implemented in the WordPress plugin:
 
-* Groups related items and adds navigation through them (uses preloading)
 * Can display images, inline and iframed content
 * Customizable through settings and CSS
 
@@ -58,6 +58,13 @@ jQuery plugin. For these types of problems, please visit:
     http://fancy.klade.lv/
 
 == Changelog ==
+= 0.3	2009-06-11 =
+* Upgraded to fancybox 1.2.1
+* Due to new version of fancybox, which requires jQuery version 1.3.2,
+  the plugin now requires WordPress 2.8 (or at least the newer jQuery)
+* Now supports next/previous image navigation within gallery images of
+  a post.
+
 = 0.2	2009-01-26 =
 * Override table styles for image captions so that it works better with
   more themes.
