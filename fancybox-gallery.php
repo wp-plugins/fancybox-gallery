@@ -5,7 +5,7 @@
  * Description: Integrates the FancyBox jQuery plugin to generate pop-up image overlays for WordPress galleries.
  * Author: Dougal Campbell
  * Author URI: http://dougal.gunters.org/
- * Version: 0.3
+ * Version: 0.3.1
  * Min WP Version: 2.8
  */
  
@@ -15,7 +15,7 @@ class WPFancyBox {
     $urlpath = WP_PLUGIN_URL . '/' . basename(dirname(__FILE__));
 
     wp_enqueue_script('fancybox', $urlpath . '/fancybox/jquery.fancybox-1.2.1.js', array('jquery'), '1.2.1');
-    wp_enqueue_script('easing', $urlpath . '/fancybox/jquery.easing.js', array('jquery'), '1.3');
+    wp_enqueue_script('easing', $urlpath . '/fancybox/jquery.easing.1.3.js', array('jquery'), '1.3');
     wp_enqueue_script('fb-init', $urlpath . '/fbg-init.js', array('fancybox'), '1.0.0', true);
     wp_enqueue_style('fancybox', $urlpath . '/fancybox/jquery.fancybox.css');
     wp_enqueue_style('fancybox-override', $urlpath . '/fbg-override.css');
