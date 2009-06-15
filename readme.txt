@@ -81,8 +81,6 @@ jQuery plugin. For these types of problems, please visit:
 * Add a settings screen. Allow control of FancyBox display options.
 * Let user set their own CSS selector, instead of assuming the standard
   WordPress shortcode.
-* ?? Filter gallery output to add `rel` attribute, so that images
-  can be grouped. ??
 
 == Credits ==
 
