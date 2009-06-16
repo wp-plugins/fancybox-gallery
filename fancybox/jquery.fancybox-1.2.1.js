@@ -432,6 +432,8 @@
 			$(window).unbind("resize scroll");
 		}
 
+		$(document).unbind("keydown");
+
 		__cleanup = function() {
 			$("#fancy_overlay, #fancy_outer").hide();
 
