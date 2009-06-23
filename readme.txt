@@ -5,7 +5,7 @@ Donate link: http://dougal.gunters.org/donate
 Tags: gallery, galleries, fancybox, lightbox, photos, images, image gallery, photo gallery, overlay, popup
 License: GPL2
 Requires at least: 2.8
-Tested up to: 2.8
+Tested up to: 2.8.1
 Stable tag: 0.3.1
 
 Integrates the FancyBox jQuery plugin to generate dynamic pop-up image
