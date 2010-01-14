@@ -5,8 +5,8 @@ Donate link: http://dougal.gunters.org/donate
 Tags: gallery, galleries, fancybox, lightbox, photos, images, image gallery, photo gallery, overlay, popup
 License: GPL2
 Requires at least: 2.8
-Tested up to: 2.9.0
-Stable tag: 0.3.1
+Tested up to: 3.0-alpha
+Stable tag: 0.3.2
 
 Integrates the FancyBox jQuery plugin to generate dynamic pop-up image
 overlays for WordPress galleries.
@@ -58,6 +58,9 @@ jQuery plugin. For these types of problems, please visit:
     http://fancy.klade.lv/
 
 == Changelog ==
+= 0.3.2 2010-01-10 =
+* Tested up to WordPress 3.0-alpha
+
 = 0.3.1	2009-06-11 =
 * Fixed path to easing plugin.
 

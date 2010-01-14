@@ -1,11 +1,11 @@
 <?php
 /*
  * Plugin Name: FancyBox Gallery
- * Plugin URI: http://wordpress.org/extend/plugins/fancybox-gallery/
+ * Plugin URI: http://dougal.gunters.org/plugins/fancybox-gallery
  * Description: Integrates the FancyBox jQuery plugin to generate pop-up image overlays for WordPress galleries.
  * Author: Dougal Campbell
  * Author URI: http://dougal.gunters.org/
- * Version: 0.3.1
+ * Version: 0.3.2
  * Min WP Version: 2.8
  */
  
